@@ -31,10 +31,11 @@
 		{
 
 			echo "<tr>";
-				echo "<td><a href='index.php?command=14&&page=$MybookList->Title'>". $MybookList->Title ."</a></td>";
+				echo "<td><a href='index.php?command=bookDetails&&page=$MybookList->Title'>". $MybookList->Title ."</a></td>";
 				echo "<td>". $MybookList->Author ."</td>";
-				echo "<td>". $MybookList->Abstract ."</td>";								
-				echo "<td>Edit | Delete </td>";
+				echo "<td>". $MybookList->Abstract ."</td>";												
+				//modify your code into this
+				echo "<td>Edit | <a href='index.php?command=deleteRec&&ISBN=".$MybookList->ISBN."' onclick='return confirm(\"Are you sure you want to do Delete this record?\")'>Delete</a></td>";
 			echo "</tr>";
 		}
 	?>

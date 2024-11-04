@@ -15,7 +15,7 @@
                 <li><a href="index.php?command=0">Home</a></li>
                 <li><a href="index.php?command=1">Gallery</a></li>
                 <li><a href="index.php?command=2">About</a></li>
-                <li><a href="index.php?command=viewDogs">View Dogs</a></li>
+                <li><a href="index.php?command=viewBooks">View Books</a></li>
             </ul>
         </div>
     </header>
